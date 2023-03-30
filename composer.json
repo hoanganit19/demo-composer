@@ -1,0 +1,21 @@
+{
+    "name": "unicode/hoccomposer",
+    "description": "Demo hoc composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hoang An Unicode"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.66",
+        "phpmailer/phpmailer": "^6.8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Core\\": "core/"
+        }
+    }
+}
