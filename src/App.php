@@ -2,9 +2,10 @@
 
 namespace App;
 
-use Carbon\Carbon;
+// use Carbon\Carbon;
 use App\controllers\HomeController;
-use PHPMailer\PHPMailer\PHPMailer;
+
+// use PHPMailer\PHPMailer\PHPMailer;
 
 class App
 {
@@ -12,8 +13,11 @@ class App
     {
         echo 'App Source <br/>';
         $home = new HomeController();
-        $now = Carbon::now();
-        $mail = new PHPMailer(true);
-        var_dump($mail);
+        // $now = Carbon::now();
+        // $mail = new PHPMailer(true);
+        //var_dump($mail);
+
+        getMessage();
+        test();
     }
 }
